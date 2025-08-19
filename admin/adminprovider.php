@@ -251,23 +251,7 @@
     font-weight: bold;
 }
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="container-fluid">
+<div class="container-fluid">
             <div class="container-flat-form">
                 <div class="title-flat-form title-flat-blue">Agregar un nuevo proveedor</div>
                 <form action="../process/AddProvider.php" method="post" class="form_SRCB" data-type-form="save" autocomplete="off">
