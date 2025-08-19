@@ -262,6 +262,7 @@
         <?php include '../inc/footer.php'; ?>   
     </div>
 </body>
+<<<<<<< HEAD
 <!-- ================== ESTILOS VERDE BANDERA ================== -->
     <style>
         body {
@@ -345,4 +346,6 @@
             background: #1f7a1f;
         }
     </style>
+=======
+>>>>>>> 9cb6ae2 (Primer commit)
 </html>

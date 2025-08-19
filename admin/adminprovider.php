@@ -251,7 +251,27 @@
     font-weight: bold;
 }
 </style>
+<<<<<<< HEAD
 <div class="container-fluid">
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container-fluid">
+>>>>>>> 9cb6ae2 (Primer commit)
             <div class="container-flat-form">
                 <div class="title-flat-form title-flat-blue">Agregar un nuevo proveedor</div>
                 <form action="../process/AddProvider.php" method="post" class="form_SRCB" data-type-form="save" autocomplete="off">

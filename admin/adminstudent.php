@@ -204,6 +204,7 @@
         <?php include '../inc/footer.php'; ?>
     </div>
 </body>
+<<<<<<< HEAD
 <style>
     /* ================== Colores principales ================== */
     :root {
@@ -369,4 +370,6 @@
         margin-bottom: 15px;
     }
 </style>
+=======
+>>>>>>> 9cb6ae2 (Primer commit)
 </html>
