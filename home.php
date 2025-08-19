@@ -98,7 +98,7 @@
         ?>
         <div class="container">
             <div class="page-header">
-              <h1 class="all-tittles">Sistema bibliotecario <small>Inicio</small></h1>
+              <h1 class="all-tittles">Sistema bibliotecario HOLA <small>Inicio</small></h1>
             </div>
         </div>
         <?php 
