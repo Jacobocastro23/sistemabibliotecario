@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<<<<<<< HEAD
     <title>Grupos</title>
+=======
+    <title>Secciones</title>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
     <?php
         session_start();
         $LinksRoute="../";
@@ -30,7 +34,11 @@
               <li role="presentation"><a href="admininstitution.php">Institución</a></li>
               <li role="presentation"><a href="adminprovider.php">Proveedores</a></li>
               <li role="presentation"><a href="admincategory.php">Categorías</a></li>
+<<<<<<< HEAD
               <li role="presentation"  class="active"><a href="adminsection.php">Grupos</a></li>
+=======
+              <!-- <li role="presentation"  class="active"><a href="adminsection.php">Secciones</a></li> -->
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
             </ul>
         </div>
         <div class="container-fluid"  style="margin: 50px 0;">
@@ -39,7 +47,11 @@
                     <img src="../assets/img/section.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
                 <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead">
+<<<<<<< HEAD
                     Bienvenido a la sección para registrar nuevas Grupos al sistema, debes de seleccionar los datos en el siguiente formulario para registrar una sección
+=======
+                    Bienvenido a la sección para registrar nuevas secciones al sistema, debes de seleccionar los datos en el siguiente formulario para registrar una sección
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                 </div>
             </div>
         </div>
@@ -48,7 +60,11 @@
                 <div class="col-xs-12 lead">
                     <ol class="breadcrumb">
                       <li class="active">Nueva sección</li>
+<<<<<<< HEAD
                       <li><a href="adminlistsection.php">Listado de Grupos</a></li>
+=======
+                      <li><a href="adminlistsection.php">Listado de secciones</a></li>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                     </ol>
                 </div>
             </div>

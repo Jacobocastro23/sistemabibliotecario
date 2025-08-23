@@ -25,14 +25,22 @@
               <h1 class="all-tittles">Sistema bibliotecario <small>Administración Institución</small></h1>
             </div>
 
+<<<<<<< HEAD
 Aqui se hace los contenedores  del administrador de institucion
+=======
+<!-- Aqui se hace los contenedores  del administrador de institucion -->
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
 </div>
 <div class="container-fluid">
     <ul class="nav nav-tabs nav-justified custom-tabs" style="font-size: 17px;">
       <li role="presentation" class="active"><a href="admininstitution.php">Institución</a></li>
       <li role="presentation"><a href="adminprovider.php">Proveedores</a></li>
       <li role="presentation"><a href="admincategory.php">Categorías</a></li>
+<<<<<<< HEAD
       <li role="presentation"><a href="adminsection.php">Grupos</a></li>
+=======
+      <!-- <li role="presentation"><a href="adminsection.php">Secciones</a></li> -->
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
     </ul>
 </div>
 

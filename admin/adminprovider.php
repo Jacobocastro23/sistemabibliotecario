@@ -30,7 +30,11 @@
               <li role="presentation"><a href="admininstitution.php">Institución</a></li>
               <li role="presentation"  class="active"><a href="adminprovider.php">Proveedores</a></li>
               <li role="presentation"><a href="admincategory.php">Categorías</a></li>
+<<<<<<< HEAD
               <li role="presentation"><a href="adminsection.php">Grupos</a></li>
+=======
+              <!-- <li role="presentation"><a href="adminsection.php">Secciones</a></li> -->
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
             </ul>
         </div>
 

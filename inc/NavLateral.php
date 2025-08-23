@@ -101,11 +101,19 @@
                                 <i class="zmdi zmdi-bookmark-outline zmdi-hc-fw"></i>&nbsp;&nbsp; Nueva categoría
                             </a>
                         </li>
+<<<<<<< HEAD
                         <li>
                             <a href="<?php echo $LinkRouteAdmin; ?>adminsection.php">
                                 <i class="zmdi zmdi-assignment-account zmdi-hc-fw"></i>&nbsp;&nbsp; Nueva grupos
                             </a>
                         </li>
+=======
+                        <!-- <li>
+                            <a href="<?php echo $LinkRouteAdmin; ?>adminsection.php">
+                                <i class="zmdi zmdi-assignment-account zmdi-hc-fw"></i>&nbsp;&nbsp; Nueva sección
+                            </a>
+                        </li> -->
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                     </ul>
                 </li>
                 <li>

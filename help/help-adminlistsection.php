@@ -17,11 +17,19 @@
     <hr>
     <div class="row">
         <div class="page-header">
+<<<<<<< HEAD
           <h2 class="all-tittles">listado de grupos <small>nueva sección</small></h2>
         </div>
         <div class="col-xs-12">
             <p class="text-help">
                 Para registrar un Grupo en el sistema, haz click en el enlace “Nueva Grupo"
+=======
+          <h2 class="all-tittles">listado de secciones <small>nueva sección</small></h2>
+        </div>
+        <div class="col-xs-12">
+            <p class="text-help">
+                Para registrar una sección en el sistema, haz click en el enlace “Nueva sección”
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
             </p>
         </div>
         <div class="col-xs-12">
@@ -32,7 +40,11 @@
     </div>
     <div class="row">
         <div class="page-header">
+<<<<<<< HEAD
           <h2 class="all-tittles">listado de Grupos <small>actualizar Grupo</small></h2>
+=======
+          <h2 class="all-tittles">listado de secciones <small>actualizar sección</small></h2>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
         </div>
         <div class="col-xs-12">
             <p class="text-help">
@@ -59,7 +71,11 @@
     </div>
     <div class="row">
         <div class="page-header">
+<<<<<<< HEAD
           <h2 class="all-tittles">listado de Grupos <small>eliminar Grupo</small></h2>
+=======
+          <h2 class="all-tittles">listado de secciones <small>eliminar sección</small></h2>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
         </div>
         <div class="col-xs-12">
             <p class="text-help">

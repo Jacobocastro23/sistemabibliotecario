@@ -48,7 +48,11 @@ if(mysqli_num_rows($checkInst)>0){
             echo '<script type="text/javascript">
                 swal({ 
                     title:"¡Ocurrió un error inesperado!", 
+<<<<<<< HEAD
                     text:"Esta sección ya esta registrada. Por favor verifique la lista de grupos e intente nuevamente", 
+=======
+                    text:"Esta sección ya esta registrada. Por favor verifique la lista de secciones e intente nuevamente", 
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                     type: "error", 
                     confirmButtonText: "Aceptar" 
                 });

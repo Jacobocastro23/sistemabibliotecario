@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<<<<<<< HEAD
     <title>Grupos</title>
+=======
+    <title>Secciones</title>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
     <?php
         session_start();
         $LinksRoute="../";
@@ -30,7 +34,11 @@
               <li role="presentation"><a href="admininstitution.php">Institución</a></li>
               <li role="presentation"><a href="adminprovider.php">Proveedores</a></li>
               <li role="presentation"><a href="admincategory.php">Categorías</a></li>
+<<<<<<< HEAD
               <li role="presentation"  class="active"><a href="adminsection.php">Grupos</a></li>
+=======
+              <li role="presentation"  class="active"><a href="adminsection.php">Secciones</a></li>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
             </ul>
         </div>
         <div class="container-fluid"  style="margin: 50px 0;">
@@ -39,7 +47,11 @@
                     <img src="../assets/img/section.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
                 <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead">
+<<<<<<< HEAD
                     Bienvenido a la sección donde se encuentra el listado de las Grupos de la institución, puedes eliminar una sección siempre y cuando no haya alumnos o docentes registrados en ella
+=======
+                    Bienvenido a la sección donde se encuentra el listado de las secciones de la institución, puedes eliminar una sección siempre y cuando no haya alumnos o docentes registrados en ella
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                 </div>
             </div>
         </div>
@@ -47,14 +59,23 @@
             <div class="row">
                 <div class="col-xs-12 lead">
                     <ol class="breadcrumb">
+<<<<<<< HEAD
                       <li><a href="adminsection.php">Nueva Grupos</a></li>
                       <li class="active">Listado de Grupos</li>
+=======
+                      <li><a href="adminsection.php">Nueva sección</a></li>
+                      <li class="active">Listado de secciones</li>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                     </ol>
                 </div>
             </div>
         </div>
         <div class="container-fluid">
+<<<<<<< HEAD
             <h2 class="text-center all-tittles">Lista de Grupos</h2>
+=======
+            <h2 class="text-center all-tittles">Lista de secciones</h2>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
             <div class="div-table">
                 <div class="div-table-row div-table-head">
                     <div class="div-table-cell">#</div>
@@ -92,7 +113,11 @@
                         mysqli_free_result($checkSectionStudent);
                     }
                 }else{
+<<<<<<< HEAD
                     echo '<br><br><br><h3 class="text-center all-tittles">No hay Grupos registradas en el sistema</h3><br><br>';
+=======
+                    echo '<br><br><br><h3 class="text-center all-tittles">No hay secciones registradas en el sistema</h3><br><br>';
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                 }
                 mysqli_free_result($checkSection);
             ?>

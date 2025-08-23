@@ -123,7 +123,11 @@ if($studentSection!=""){
     echo '<script type="text/javascript">
         swal({ 
             title:"¡Ocurrió un error inesperado!", 
+<<<<<<< HEAD
             text:"No hay grupos disponibles. Debes registrar Grupos y asignarles un encargado", 
+=======
+            text:"No hay secciones disponibles. Debes registrar secciones y asignarles un encargado", 
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
             type: "error", 
             confirmButtonText: "Aceptar" 
         });

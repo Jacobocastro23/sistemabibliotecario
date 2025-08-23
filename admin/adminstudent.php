@@ -72,7 +72,11 @@
                     <?php
                         $checkTotalSection=ejecutarSQL::consultar("SELECT * FROM seccion");
                         if(mysqli_num_rows($checkTotalSection)<=0){
+<<<<<<< HEAD
                             echo '<br><div class="alert alert-danger text-center" role="alert"><strong><i class="zmdi zmdi-alert-triangle"></i> &nbsp; ¡Importante!:</strong> No puedes registrar estudiantes, primero debes de agregar minimo un grupo al sistema</div>';
+=======
+                            echo '<br><div class="alert alert-danger text-center" role="alert"><strong><i class="zmdi zmdi-alert-triangle"></i> &nbsp; ¡Importante!:</strong> No puedes registrar estudiantes, primero debes de agregar secciones al sistema</div>';
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                         }
                     ?>
                     <div class="container-fluid">
@@ -110,7 +114,11 @@
                             <div class="col-xs-12">
                                <div class="group-material">
                                     <span>Grupo</span>
+<<<<<<< HEAD
                                     <select class="material-control tooltips-general" name="studentSection" data-toggle="tooltip" data-placement="top" title="Elige los grupos al que pertenece el alumno">
+=======
+                                    <select class="material-control tooltips-general" name="studentSection" data-toggle="tooltip" data-placement="top" title="Elige la sección a la que pertenece el alumno">
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                                         <option value="" disabled="" selected="">Selecciona un Grupo</option>
                                         <?php
                                             if(mysqli_num_rows($checkTotalSection)>0){

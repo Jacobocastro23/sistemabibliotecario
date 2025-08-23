@@ -112,7 +112,11 @@
                     </button>
                 </div>
             </form>
+<<<<<<< HEAD
             <h2 class="text-center all-tittles" style="margin: 25px 0; clear: both;">Grupos</h2>
+=======
+            <!-- <h2 class="text-center all-tittles" style="margin: 25px 0; clear: both;">Secciones</h2> -->
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
             <ul class="list-unstyled text-center list-catalog-container">
                 <?php
                     $selectSections=ejecutarSQL::consultar("SELECT * FROM seccion ORDER BY Nombre ASC");

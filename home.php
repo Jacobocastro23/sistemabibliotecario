@@ -154,11 +154,19 @@
                 <div class="tile-name all-tittles">categorías</div>
                 <div class="tile-num full-reset"><?php echo mysqli_num_rows($checkCategories); ?></div>
             </article>
+<<<<<<< HEAD
             <article class="tile" data-href="./admin/adminlistsection.php" data-num="<?php echo mysqli_num_rows($checkSections); ?>">
                 <div class="tile-icon full-reset"><i class="zmdi zmdi-assignment-account"></i></div>
                 <div class="tile-name all-tittles">grupos</div>
                 <div class="tile-num full-reset"><?php echo mysqli_num_rows($checkSections); ?></div>
             </article>
+=======
+            <!-- <article class="tile" data-href="./admin/adminlistsection.php" data-num="<?php echo mysqli_num_rows($checkSections); ?>">
+                <div class="tile-icon full-reset"><i class="zmdi zmdi-assignment-account"></i></div>
+                <div class="tile-name all-tittles">secciones</div>
+                <div class="tile-num full-reset"><?php echo mysqli_num_rows($checkSections); ?></div>
+            </article> -->
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
             <article class="tile" data-href="./admin/adminreservation.php" data-num="<?php echo mysqli_num_rows($checkReservation); ?>">
                 <div class="tile-icon full-reset"><i class="zmdi zmdi-timer"></i></div>
                 <div class="tile-name all-tittles">reservaciones</div>
@@ -181,8 +189,11 @@
             </article>
         </section>
 
+<<<<<<< HEAD
        
 
+=======
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
         <?php
             // Código de alertas y modal
             if($_SESSION['CheckConfig']=='unrevised'){
@@ -261,7 +272,10 @@
 
         <?php include './inc/footer.php'; ?>
     </div>
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
 </body>
 </html>

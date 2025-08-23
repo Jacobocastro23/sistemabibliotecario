@@ -17,11 +17,19 @@
     <hr>
     <div class="row">
         <div class="page-header">
+<<<<<<< HEAD
           <h2 class="all-tittles">Grupos <small>lista de Grupos</small></h2>
         </div>
         <div class="col-xs-12">
             <p class="text-help">
                 Para ver las Grupos registradas en el sistema, haz click en el enlace “Listado de grupos”
+=======
+          <h2 class="all-tittles">secciones <small>lista de secciones</small></h2>
+        </div>
+        <div class="col-xs-12">
+            <p class="text-help">
+                Para ver las secciones registradas en el sistema, haz click en el enlace “Listado de secciones”
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
             </p>
         </div>
         <div class="col-xs-12">
@@ -32,7 +40,11 @@
     </div>
     <div class="row">
         <div class="page-header">
+<<<<<<< HEAD
           <h2 class="all-tittles">Grupos <small>registrar Grupos</small></h2>
+=======
+          <h2 class="all-tittles">secciones <small>registrar sección</small></h2>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
         </div>
         <div class="col-xs-12">
             <p class="text-help">

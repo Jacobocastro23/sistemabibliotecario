@@ -300,7 +300,11 @@
                                 </div>
                             </div> -->
                         </div>
+<<<<<<< HEAD
                         <!-- <div class="row">
+=======
+                        <div class="row">
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                             <div class="page-header">
                                 <h2 class="all-tittles">reportes <small>devoluciones pendientes (PDF)</small></h2>
                             </div><br>
@@ -336,8 +340,13 @@
                                     <h3 class="text-center">Visitantes</h3>
                                 </div>
                             </div>
+<<<<<<< HEAD
                         </div> -->
                         <!-- <div class="row">
+=======
+                        </div>
+                        <div class="row">
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                             <div class="page-header">
                                 <h2 class="all-tittles">reportes <small>devoluciones pendientes (EXCEL)</small></h2>
                             </div><br>
@@ -373,12 +382,21 @@
                                     <h3 class="text-center">Visitantes</h3>
                                 </a>
                             </div>
+<<<<<<< HEAD
                         </div> -->
                         <div class="row">
                             <div class="page-header">
                                 <h2 class="all-tittles">reportes <small>devoluciones pendientes de estudiantes por categoría (PDF)</small></h2>
                             </div><br>
                             <!-- <div class="col-xs-12 col-sm-6 col-md-4">
+=======
+                        </div>
+                        <div class="row">
+                            <div class="page-header">
+                                <h2 class="all-tittles">reportes <small>devoluciones pendientes de estudiantes por sección y categoría (PDF)</small></h2>
+                            </div><br>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                                 <div class="group-material">
                                     <span class="text-uppercase"><i class="zmdi zmdi-assignment-account"></i> &nbsp; reporte por sección</span>
                                     <select class="tooltips-general material-control" id="sectionRS" data-toggle="tooltip" data-placement="top" title="Elige una seccion">
@@ -391,13 +409,22 @@
                                             mysqli_free_result($selSect);
                                         ?>
                                     </select>
+<<<<<<< HEAD
                                 </div> -->
                                 <!-- <a class="full-reset report-content">
+=======
+                                </div>
+                                <a class="full-reset report-content">
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                                     <p class="text-center">
                                         <i class="zmdi zmdi-assignment-account zmdi-hc-5x sectionR"></i>
                                     </p>
                                     <h3 class="text-center">Generar reporte por sección</h3>
+<<<<<<< HEAD
                                 </a> -->
+=======
+                                </a>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="group-material">
@@ -421,7 +448,11 @@
                                 </a>
                             </div>
                         </div>
+<<<<<<< HEAD
                         <!-- <div class="row">
+=======
+                        <div class="row">
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                             <div class="page-header">
                                 <h2 class="all-tittles">reportes <small>Bitácora (PDF)</small></h2>
                             </div><br>
@@ -453,7 +484,11 @@
                                 </a>
                             </div>
                         </div>
+<<<<<<< HEAD
                     </div> -->
+=======
+                    </div>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="bitacora">
                     <div class="container-fluid"  style="margin: 50px 0;">

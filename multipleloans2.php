@@ -244,6 +244,7 @@
     <?php 
         mysqli_free_result($checkYear);
     ?>
+<<<<<<< HEAD
 </body><style>
 /* ================== Pestañas ================== */
 .custom-tabs > li.active > a {
@@ -404,4 +405,7 @@
 }
 </style>
 
+=======
+</body>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
 </html>

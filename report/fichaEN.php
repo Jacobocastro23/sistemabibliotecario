@@ -87,7 +87,11 @@ $pdf->SetFont("Times","",12);
 $pdf->Cell (67,5,iconv("UTF-8", "ISO-8859-1",$dataUser['Parentesco']),0);
 $pdf->Ln(9);
 $pdf->SetFont("Times","b",12);
+<<<<<<< HEAD
 $pdf->Cell (29,5,iconv("UTF-8", "ISO-8859-1",'Año y Grupo: '),0);
+=======
+$pdf->Cell (29,5,iconv("UTF-8", "ISO-8859-1",'Año y Sección: '),0);
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
 $pdf->SetFont("Times","",12);
 $pdf->Cell (127,5,iconv("UTF-8", "ISO-8859-1",$dataSection['Nombre']),0);
 $pdf->Ln(15);
@@ -136,7 +140,11 @@ $pdf->Ln(15);
 $pdf->SetFont("Times","",12);
 $pdf->Cell (0,5,iconv("UTF-8", "ISO-8859-1",'Nota:  Joven estudiante para solicitar libros de biblioteca, deberá presentar su propio'),0);
 $pdf->Ln(7);
+<<<<<<< HEAD
 $pdf->Cell (0,5,iconv("UTF-8", "ISO-8859-1",'documento de identidad personal (Matricula), y'),0);
+=======
+$pdf->Cell (0,5,iconv("UTF-8", "ISO-8859-1",'documento de identidad personal (carnet de estudiante, carnet de minoridad, DUI), y'),0);
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
 $pdf->Ln(7);
 $pdf->Cell (0,5,iconv("UTF-8", "ISO-8859-1",'si el libro sufre daños deberá responder por ellos, asi mismo entregarlo en la fecha indicada.'),0);
 $pdf->Ln(25);

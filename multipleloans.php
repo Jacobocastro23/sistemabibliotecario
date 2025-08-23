@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<<<<<<< HEAD
     <title>Préstamos múltiples</title>
+=======
+    <title>Prestamos multiples</title>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
     <?php
         session_start();
         $LinksRoute="./";
@@ -10,6 +14,7 @@
     <link rel="stylesheet" href="css/jquery.datetimepicker.css">
     <script src="js/SendForm.js"></script>
     <script src="js/jquery.datetimepicker.js"></script>
+<<<<<<< HEAD
 
     <style>
     /* ================== Colores principales ================== */
@@ -157,6 +162,8 @@
         border-radius: 12px;
     }
     </style>
+=======
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
 </head>
 <body>
     <?php 
@@ -169,7 +176,13 @@
         include './inc/NavLateral.php';
     ?>
     <div class="content-page-container full-reset scroll">
+<<<<<<< HEAD
         <?php include './inc/NavUserInfo.php'; ?>
+=======
+        <?php 
+            include './inc/NavUserInfo.php';
+        ?>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
         <div class="container">
             <div class="page-header">
               <h1 class="all-tittles">Sistema bibliotecario <small>Préstamos Múltiples</small></h1>
@@ -202,7 +215,11 @@
                         <div class="row">
                             <div class="col-xs-12 col-md-8">
                                 <div class="group-material">
+<<<<<<< HEAD
                                     <input type="text" class="material-control" name="bookCodeShopping" placeholder="Matricula" required="">
+=======
+                                    <input type="text" class="material-control" name="bookCodeShopping" placeholder="Codigo del libro" required="">
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                                     <span class="highlight"></span>
                                     <span class="bar"></span>
                                     <label>Código del libro</label>
@@ -218,14 +235,20 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
         <?php 
             if(isset($_POST['bookCodePm'])){
                 include "./process/AddToPm.php";
             }
             $currentDateForm=date("d.m.Y");
         ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
         <div class="container-fluid">
             <div class="panel panel-primary">
                 <div class="panel-heading">
@@ -235,8 +258,13 @@
                     <?php include "./process/AddBookShoppingKart.php" ?>
                 </div>
             </div>
+<<<<<<< HEAD
         </div>
 
+=======
+
+        </div>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
         <section class="full-reset">
             <div class="container-fluid">
                 <div class="row">
@@ -303,9 +331,15 @@
                             <div class="panel-body">
                                 <form action="" method="POST" class="text-center" style="padding: 30px 0;">
                                     <input type="hidden" name="propresmulaction" value="1">
+<<<<<<< HEAD
                                     <input type="hidden" name="adminCode" value="<?php echo $_SESSION['primaryKey']; ?>">
                                     <div class="group-material">
                                         <input type="text" class="material-control" id="inputPersonals" placeholder="Matricula" name="userKey" required="">
+=======
+                                    <input type="hidden"  name="adminCode" value="<?php echo $_SESSION['primaryKey']; ?>">
+                                    <div class="group-material">
+                                        <input type="text" class="material-control" id="inputPersonals" placeholder="Codigo del usuario" name="userKey" required="">
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
                                         <span class="highlight"></span>
                                         <span class="bar"></span>
                                         <label>Codigo del usuario</label>
@@ -342,7 +376,10 @@
 
         <?php include './inc/footer.php'; ?>
     </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
     <?php
         $checkYear=ejecutarSQL::consultar("SELECT * FROM institucion");
         $year=mysqli_fetch_array($checkYear, MYSQLI_ASSOC);
@@ -399,6 +436,14 @@
             });
         });
     </script>
+<<<<<<< HEAD
     <?php mysqli_free_result($checkYear); ?>
 </body>
 </html>
+=======
+    <?php 
+        mysqli_free_result($checkYear);
+    ?>
+</body>
+</html>
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1

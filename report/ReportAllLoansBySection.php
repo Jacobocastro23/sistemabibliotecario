@@ -28,7 +28,11 @@ $pdf->Ln(5);
 $pdf->SetFont("Times","",14);
 $pdf->Cell (0,5,iconv("UTF-8", "ISO-8859-1","Control de bibliografía de biblioteca en estado '$LoanTypeGet'"),0,1,'C');
 $pdf->Ln(5);
+<<<<<<< HEAD
 $pdf->Cell (0,5,iconv("UTF-8", "ISO-8859-1",'por grupos durante el año '.$LoanYearGet.''),0,1,'C');
+=======
+$pdf->Cell (0,5,iconv("UTF-8", "ISO-8859-1",'por secciones durante el año '.$LoanYearGet.''),0,1,'C');
+>>>>>>> 2982a2b8fcadcb4714a8d27c107d0bcc15c0d2d1
 $pdf->Ln(20);
 $pdf->SetFont("Times","b",10);
 $pdf->SetFillColor(255,204,188);
